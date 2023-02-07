@@ -4,7 +4,7 @@ export const fetchWeather = async (query) => {
     const options = {
         method: 'GET',
         url: 'https://api.openweathermap.org/data/2.5/weather',
-        params: { appid: 'b3ec1f59423b1221d4a775a0feb2a7c3', q: query, unit: 'metric' }
+        params: { appid: 'YOUR API KEY', q: query, unit: 'metric' }
     };
 
     try {
